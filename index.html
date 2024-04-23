@@ -1,0 +1,105 @@
+<html>
+
+	<head>
+
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<!--
+		<link rel="stylesheet" href="test.css">
+		-->
+		<style>
+
+			@font-face {
+				font-family: signikaregular;
+				src: url('Signika-Regular.ttf');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: signikasemibold;
+				src: url('Signika-Semibold.ttf');
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: signikalight;
+  				src: url('Signika-Light.ttf');
+  				font-weight: normal;
+  				font-style: normal;
+			}
+
+			body {
+				background-color: mintcream;
+			}
+
+			h1 {
+				font-family: signikasemibold;
+				color: darkcyan;
+				
+			}
+
+			.com {
+				color: #86E3B4;
+			}
+
+			p {
+				font-family: signikaregular;
+				color: dimgray;
+			}
+
+			textarea {
+				width: 80%;
+  				height: 190px;
+  				padding: 12px 20px;
+  				box-sizing: border-box;
+				border: 2px solid #b1bfbd;
+				border-radius: 4px;
+				background-color: #deecec;
+				resize: none;
+				font-family: signikalight;
+				color: #73807F;
+			}
+
+			input {
+				font-family: signikasemibold;
+				background-color: #deecec;
+				border: 2px solid #b1bfbd;
+				border-radius: 4px;
+				color: darkslategray;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h1>
+			SeanMillman<span class="com">.com</span>
+		</h1>
+		
+		<p>
+			Hi! This is a demo version of my text generating program. It's similar to <a href=https://en.wikipedia.org/wiki/Predictive_text>predictive</a> <a href=https://en.wikipedia.org/wiki/Markov_chain>typing</a> when you text, except it also takes <a href=https://en.wikipedia.org/wiki/WordNet>words' meanings</a> into account. <br/>That means that the sentences it generates almost sort of make sense contextually. <br/><br/>You can mess with it yourself using the example text below (The Gettysburg Address), or you can use your own text! <br/>Just put your literature in the box below and hit generate. Every generation is different, even with the same text. Have fun!
+			<br>
+			<br>
+			Input:
+		</p>
+
+		<form accept-charset=utf-8 action = 'http://www.seanmillman.com/generator.py' method = "post">
+			<textarea id = inputbox name = "inputbox">
+Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we can not dedicate - we can not consecrate - we can not hallow - this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us - that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion - that we here highly resolve that these dead shall not have died in vain - that this nation, under God, shall have a new birth of freedom - and that government of the people, by the people, for the people, shall not perish from the earth.
+			</textarea>
+			<br>
+			<br>
+			<input type = "submit" value = "Generate" />
+
+		</form>
+
+		<p>
+			If you want to improve your results, use longer text samples. The more that words are repeated, the more material the program will have to work with. 
+		</p>
+
+	</body>
+
+</html>
+

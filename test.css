@@ -1,0 +1,83 @@
+textarea {
+  width: 100%;
+  height: 190px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #b1bfbd;
+  border-radius: 4px;
+  background-color: #deecec;
+  resize: none;
+}
+
+/*
+h1 {
+  font-family: signikasemibold;
+  src: url('Signika-Semibold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'signikabold';
+    src: url('signika-bold-webfont.woff2') format('woff2'),
+         url('signika-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signikalight';
+    src: url('signika-light-webfont.woff2') format('woff2'),
+         url('signika-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signika_negativebold';
+    src: url('signikanegative-bold-webfont.woff2') format('woff2'),
+         url('signikanegative-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signika_negativelight';
+    src: url('signikanegative-light-webfont.woff2') format('woff2'),
+         url('signikanegative-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signika_negativeregular';
+    src: url('signikanegative-regular-webfont.woff2') format('woff2'),
+         url('signikanegative-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signika_negativesemibold';
+    src: url('signikanegative-semibold-webfont.woff2') format('woff2'),
+         url('signikanegative-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'signikasemibold';
+    src: url('signika-semibold-webfont.woff2') format('woff2'),
+         url('signika-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
